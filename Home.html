@@ -13,11 +13,13 @@
         <a class="navbar-brand" href="#">
                 <img src="Asserts/logo.png" alt="logo">
               </a>
-            <form class="form-inline">
+              <h1>&nbsp; &nbsp;<label type="text" name=""  id="welcomeTxt"> Welcome </label>&nbsp;&nbsp;</h1> 
+            <form class="form-inline" id="searchForm">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+           
+            <button type="button" class="btn btn-primary" data-toggle="modal" id="mainLoginBtn" data-target="#exampleModal">
                 login
               </button>
               
@@ -36,13 +38,13 @@
                     </div>
                     <div class="modal-body">
                      <form action="">
-                         <label>UserName :&nbsp;</label><input type="text" id="UserName" /><br>
-                         <label>Password &nbsp;&nbsp;:&nbsp;</label><input type="password" id="password"/>
+                         <label>UserName :&nbsp;</label><input type="text" id="UserName" value="jay"/><br>
+                         <label>Password &nbsp;&nbsp;:&nbsp;</label><input type="password" id="password" value="Chethu@143"/>
                      </form>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-success">Login</button>
+                      <button type="button" id="loginbtn" class="btn btn-success" onclick="loginUser()">Login</button>
                     </div>
                   </div>
                 </div>
