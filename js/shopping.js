@@ -152,8 +152,11 @@ const products = [{
 let productsContainer = document.getElementById('productsContainer');
 let items = 1;
 
-const addProducts=await ()=>{
+const addProducts= ()=>{
     products.forEach(product => {
+        setTimeout(() => {
+      resolve('hello');
+    }, 2000);
         productsContainer.innerHTML += `<div class="product" > 
                             <div id="product${items}" onClick="product_click(this.id)">
                                 <h3 class="productName">${product.name}</h3>
