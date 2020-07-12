@@ -152,7 +152,7 @@ const products = [{
 let productsContainer = document.getElementById('productsContainer');
 let items = 1;
 
-const addProducts=await(async ())=>{
+const addProducts=await ()=>{
     products.forEach(product => {
         productsContainer.innerHTML += `<div class="product" > 
                             <div id="product${items}" onClick="product_click(this.id)">
