@@ -77,41 +77,41 @@ const products = [{
         cat: "Electronics",
     },
     {
-        name: "Sweat-waist",
+        name: "sweat-waist",
         price: 25.56,
         cat: "Sale"
     },
     {
-        name: "Music-system",
+        name: "music-system",
         price: 12.34,
         cat: "Electronics"
     },
     {
-        name: "Watch",
+        name: "watch",
         price: 800.59,
         cat: "Sale"
     },
     {
-        name: "Airpods-case",
+        name: "airpods-case",
         price: 7.99,
         cat: "Electronics"
     },
     {
-        name: "Sofa",
+        name: "sofa",
         price: 21.24,
         cat: "Sale"
     }, {
-        name: "Mobile-case",
+        name: "mobile-case",
         price: 14.06,
         cat: "Electronics"
     },
     {
-        name: "Chicken-Legs",
+        name: "chicken-Legs",
         price: 5.45,
         cat: "Food"
     },
     {
-        name: "Rice-cooker",
+        name: "rice-cooker",
         price: 34.45,
         cat: "Electronics"
     },
@@ -121,7 +121,7 @@ const products = [{
         cat: "Electronics"
     },
     {
-        name: "T-shirt",
+        name: "t-shirt",
         price: 16.95,
         cat: "Cloths"
     },
@@ -131,12 +131,12 @@ const products = [{
         cat: "Cloths"
     },
     {
-        name: "Popcorn",
+        name: "popcorn",
         price: 20.99,
         cat: "Food"
     },
     {
-        name: "Protien-puffs",
+        name: "protien-puffs",
         price: 20.99,
         cat: "Food"
     },
