@@ -106,7 +106,7 @@ const products = [{
         cat: "Electronics"
     },
     {
-        name: "chicken-Legs",
+        name: "chicken-legs",
         price: 5.45,
         cat: "Food"
     },
